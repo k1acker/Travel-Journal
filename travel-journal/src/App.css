@@ -12,6 +12,14 @@ body {
   background-color: #F55A5A;
 }
 
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
 .logo {
   width: 24px;
 }
@@ -22,5 +30,64 @@ body {
 }
 
 .card-container {
-  margin: 40px;
+  margin: 80px;
+  max-width: 1200px;
+}
+
+.card--image {
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 5px;
+  float: left;
+  clear: both;
+  margin: 20px 20px;
+}
+
+.location {
+  align-items: center;
+}
+
+.location > img {
+  margin-right: 5px;
+}
+
+.location > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.30em;
+  color: #2B283A;
+}
+
+.location > a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.info--container {
+  margin-left: 320px;
+  padding: 100px 20px;
+}
+
+.info--container > span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B283A;
+}
+
+.info--container > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2B283A;
 }
